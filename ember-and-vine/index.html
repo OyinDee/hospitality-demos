@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ember &amp; Vine — Wood-Fired Kitchen</title>
+<meta name="description" content="Ember &amp; Vine is a wood-fired kitchen and natural wine bar on the Lower East Side. Seasonal plates, live flame, long evenings.">
+<meta name="theme-color" content="#171310">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23171310'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='34' fill='%23F6F0E6' text-anchor='middle'%3EE%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="header">
+  <div class="header-inner">
+    <a class="brand" href="#top" aria-label="Ember and Vine home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none"><path d="M12 2c1.8 4.2-.8 5.6-.8 8.2 0 1.5 1 2.4 2.1 2.4 1.4 0 2.2-1.1 2.2-2.6 2.1 2.1 3.2 4.4 3.2 6.9A8.7 8.7 0 0 1 12 25 8.7 8.7 0 0 1 3.3 16.9c0-4.7 3.2-7.9 5.3-10.6C10.6 3.6 11.4 2 12 2Z" fill="currentColor"/></svg>
+      </span>
+      <span class="brand-text">Ember <i>&amp;</i> Vine</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#story">Story</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#private">Private Dining</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-small btn-primary" href="#reserve">Book a table</a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+  <nav aria-label="Mobile">
+    <a href="#story">Story</a>
+    <a href="#menu">Menu</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#private">Private Dining</a>
+    <a href="#visit">Visit</a>
+    <a class="btn btn-primary" href="#reserve">Book a table</a>
+  </nav>
+  <div class="mobile-nav-foot">
+    <p>148 Orchard Street, New York</p>
+    <a href="tel:+12125550148">+1 (212) 555-0148</a>
+  </div>
+</div>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="hero-media">
+      <img src="assets/hero.jpg" alt="A candlelit table laid for dinner at Ember and Vine" fetchpriority="high">
+    </div>
+    <div class="hero-inner container">
+      <p class="hero-kicker">Wood-fired kitchen &middot; Lower East Side &middot; Est. 2019</p>
+      <h1>Food with fire.<br><em>Wine with soul.</em></h1>
+      <p class="hero-lede">Seasonal plates cooked over live flame, natural wine poured generously, and a room built for long evenings.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#reserve">Reserve a table</a>
+        <a class="btn btn-ghost" href="#menu">Explore the menu</a>
+      </div>
+    </div>
+    <div class="hero-foot container">
+      <p class="hero-hours"><span>Tonight</span> 5:00pm &ndash; 12:00am</p>
+      <p class="hero-address">148 Orchard Street, New York, NY</p>
+      <a class="hero-scroll" href="#story" aria-label="Scroll to our story">
+        <span class="scroll-line"></span> Scroll
+      </a>
+    </div>
+  </section>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>Seasonal produce</span><i>&#9670;</i><span>Open flame</span><i>&#9670;</i><span>Natural wine</span><i>&#9670;</i><span>Private dining</span><i>&#9670;</i><span>Local farms</span><i>&#9670;</i>
+      <span>Seasonal produce</span><i>&#9670;</i><span>Open flame</span><i>&#9670;</i><span>Natural wine</span><i>&#9670;</i><span>Private dining</span><i>&#9670;</i><span>Local farms</span><i>&#9670;</i>
+    </div>
+  </div>
+  <section class="section story" id="story">
+    <div class="container story-grid">
+      <div class="story-media reveal">
+        <figure class="story-main">
+          <img src="assets/chef.jpg" alt="A chef finishing a plate with fresh herbs" loading="lazy">
+        </figure>
+        <figure class="story-inset">
+          <img src="assets/interior.jpg" alt="The dining room at Ember and Vine" loading="lazy">
+        </figure>
+        <span class="story-stamp" aria-hidden="true">Cooked<br>over fire</span>
+      </div>
+      <div class="story-copy">
+        <p class="eyebrow reveal">01 &mdash; Our story</p>
+        <h2 class="reveal">A kitchen built<br>around the fire.</h2>
+        <p class="lede reveal">We opened in 2019 with one grill, a stack of oak, and a stubborn belief that the best meals are the ones that take their time.</p>
+        <p class="reveal">Everything that leaves our kitchen meets live flame. Whole fish, dry-aged ribeye, vegetables from a handful of farms within a hundred miles. The menu shifts with what the season gives us, and the wine list follows the same rule: small growers, honest bottles, nothing that needs explaining.</p>
+        <p class="reveal">The room is dark, warm and deliberately unhurried. Come for dinner, stay for one more glass.</p>
+        <div class="stats reveal">
+          <div><strong>2019</strong><span>Opened on Orchard</span></div>
+          <div><strong>48</strong><span>Seats, one flame</span></div>
+          <div><strong>12</strong><span>Local farms</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section signatures">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow reveal">02 &mdash; Signatures</p>
+          <h2 class="reveal">What the fire<br>is saying.</h2>
+        </div>
+        <p class="section-note reveal">Three plates that rarely leave the menu. Everything else changes with the season.</p>
+      </div>
+      <div class="dish-grid">
+        <article class="dish-card reveal">
+          <figure><img src="assets/dish2.jpg" alt="Smoked short rib with black garlic and burnt onion jus" loading="lazy"></figure>
+          <div class="dish-body">
+            <div class="dish-top"><h3>Smoked Short Rib</h3><span>$38</span></div>
+            <p>Black garlic, burnt onion jus, pickled mustard seed.</p>
+          </div>
+        </article>
+        <article class="dish-card reveal">
+          <figure><img src="assets/dish5.jpg" alt="Whole grilled sea bream with fennel and salsa verde" loading="lazy"></figure>
+          <div class="dish-body">
+            <div class="dish-top"><h3>Whole Sea Bream</h3><span>$34</span></div>
+            <p>Charred fennel, salsa verde, preserved lemon.</p>
+          </div>
+        </article>
+        <article class="dish-card reveal">
+          <figure><img src="assets/dessert.jpg" alt="Burnt Basque cheesecake with honey and sea salt" loading="lazy"></figure>
+          <div class="dish-body">
+            <div class="dish-top"><h3>Burnt Basque Cheesecake</h3><span>$12</span></div>
+            <p>Wildflower honey, sea salt, a little smoke.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section menu-section" id="menu">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow reveal">03 &mdash; The menu</p>
+          <h2 class="reveal">Dinner, poured<br>and plated.</h2>
+        </div>
+        <p class="section-note reveal">Served Tuesday to Sunday. Kitchen closes one hour before the room does.</p>
+      </div>
+
+      <div class="menu-tabs reveal" role="tablist" aria-label="Menu sections">
+        <button class="menu-tab is-active" role="tab" aria-selected="true" aria-controls="panel-dinner" id="tab-dinner">Dinner</button>
+        <button class="menu-tab" role="tab" aria-selected="false" aria-controls="panel-bar" id="tab-bar">Bar</button>
+        <button class="menu-tab" role="tab" aria-selected="false" aria-controls="panel-sweets" id="tab-sweets">Sweets</button>
+      </div>
+
+      <div class="menu-panel is-active" id="panel-dinner" role="tabpanel" aria-labelledby="tab-dinner">
+        <div class="menu-col">
+          <h3 class="menu-group">To begin</h3>
+          <div class="menu-row"><span class="menu-name">Wood-Fired Sourdough<em>cultured butter, smoked salt</em></span><span class="dots"></span><span class="menu-price">9</span></div>
+          <div class="menu-row"><span class="menu-name">Charred Octopus<em>nduja, white bean, lemon</em></span><span class="dots"></span><span class="menu-price">19</span></div>
+          <div class="menu-row"><span class="menu-name">Little Gem &amp; Anchovy<em>buttermilk, rye crumb</em></span><span class="dots"></span><span class="menu-price">14</span></div>
+          <div class="menu-row"><span class="menu-name">Roasted Bone Marrow<em>parsley, pickled shallot, toast</em></span><span class="dots"></span><span class="menu-price">16</span></div>
+          <h3 class="menu-group">To share</h3>
+          <div class="menu-row"><span class="menu-name">Grilled Ribeye, 32oz<em>bone marrow butter, watercress</em></span><span class="dots"></span><span class="menu-price">76</span></div>
+          <div class="menu-row"><span class="menu-name">Duck Fat Potatoes<em>rosemary, garlic, sea salt</em></span><span class="dots"></span><span class="menu-price">9</span></div>
+          <div class="menu-row"><span class="menu-name">Charred Broccolini<em>almond, chilli, lemon</em></span><span class="dots"></span><span class="menu-price">8</span></div>
+        </div>
+        <div class="menu-col">
+          <h3 class="menu-group">Mains</h3>
+          <div class="menu-row"><span class="menu-name">Smoked Short Rib<em>black garlic, burnt onion jus</em></span><span class="dots"></span><span class="menu-price">38</span></div>
+          <div class="menu-row"><span class="menu-name">Whole Sea Bream<em>fennel, salsa verde, lemon</em></span><span class="dots"></span><span class="menu-price">34</span></div>
+          <div class="menu-row"><span class="menu-name">Ember Chicken<em>harissa, preserved lemon, yogurt</em></span><span class="dots"></span><span class="menu-price">29</span></div>
+          <div class="menu-row"><span class="menu-name">Wild Mushroom Risotto<em>aged parmesan, thyme oil</em></span><span class="dots"></span><span class="menu-price">26</span></div>
+          <div class="menu-row"><span class="menu-name">Grilled Aubergine<em>miso, sesame, spring onion</em></span><span class="dots"></span><span class="menu-price">24</span></div>
+          <p class="menu-foot">Please tell us about allergies. A discretionary 20% service charge is added to parties of six or more.</p>
+        </div>
+      </div>
+      <div class="menu-panel" id="panel-bar" role="tabpanel" aria-labelledby="tab-bar" hidden>
+        <div class="menu-col">
+          <h3 class="menu-group">Cocktails</h3>
+          <div class="menu-row"><span class="menu-name">Smoked Old Fashioned<em>rye, demerara, orange oil</em></span><span class="dots"></span><span class="menu-price">16</span></div>
+          <div class="menu-row"><span class="menu-name">Fig &amp; Rye<em>black fig, lemon, egg white</em></span><span class="dots"></span><span class="menu-price">15</span></div>
+          <div class="menu-row"><span class="menu-name">Ember Margarita<em>mezcal, burnt lime, agave</em></span><span class="dots"></span><span class="menu-price">15</span></div>
+          <div class="menu-row"><span class="menu-name">Garden Spritz<em>bitter aperitivo, prosecco, basil</em></span><span class="dots"></span><span class="menu-price">14</span></div>
+          <h3 class="menu-group">Zero proof</h3>
+          <div class="menu-row"><span class="menu-name">Rosemary &amp; Grapefruit<em>soda, tonic, fresh herbs</em></span><span class="dots"></span><span class="menu-price">7</span></div>
+          <div class="menu-row"><span class="menu-name">Cold-Brew Negroni<em>zero-proof, orange, coffee</em></span><span class="dots"></span><span class="menu-price">9</span></div>
+        </div>
+        <div class="menu-col">
+          <h3 class="menu-group">By the glass</h3>
+          <div class="menu-row"><span class="menu-name">Chenin Blanc<em>Swartland, South Africa</em></span><span class="dots"></span><span class="menu-price">13</span></div>
+          <div class="menu-row"><span class="menu-name">Nerello Mascalese<em>Etna, Sicily</em></span><span class="dots"></span><span class="menu-price">15</span></div>
+          <div class="menu-row"><span class="menu-name">C&ocirc;tes du Rh&ocirc;ne<em>Rh&ocirc;ne Valley, France</em></span><span class="dots"></span><span class="menu-price">14</span></div>
+          <div class="menu-row"><span class="menu-name">Pilsner, on draught<em>Hudson Valley</em></span><span class="dots"></span><span class="menu-price">8</span></div>
+          <div class="menu-row"><span class="menu-name">Dry Cider<em>finger lakes, NY</em></span><span class="dots"></span><span class="menu-price">9</span></div>
+          <p class="menu-foot">The full wine list runs to four pages and changes weekly. Ask for something you have never tried.</p>
+        </div>
+      </div>
+
+      <div class="menu-panel" id="panel-sweets" role="tabpanel" aria-labelledby="tab-sweets" hidden>
+        <div class="menu-col">
+          <h3 class="menu-group">Sweets</h3>
+          <div class="menu-row"><span class="menu-name">Burnt Basque Cheesecake<em>wildflower honey, sea salt</em></span><span class="dots"></span><span class="menu-price">12</span></div>
+          <div class="menu-row"><span class="menu-name">Olive Oil Chocolate Cake<em>cr&egrave;me fra&icirc;che, cocoa nib</em></span><span class="dots"></span><span class="menu-price">11</span></div>
+          <div class="menu-row"><span class="menu-name">Wood-Roasted Peaches<em>almond, bay leaf, vanilla</em></span><span class="dots"></span><span class="menu-price">10</span></div>
+        </div>
+        <div class="menu-col">
+          <h3 class="menu-group">To finish</h3>
+          <div class="menu-row"><span class="menu-name">Affogato<em>espresso, vanilla gelato</em></span><span class="dots"></span><span class="menu-price">8</span></div>
+          <div class="menu-row"><span class="menu-name">Cheese Board<em>three cheeses, honey, seeded crackers</em></span><span class="dots"></span><span class="menu-price">18</span></div>
+          <div class="menu-row"><span class="menu-name">Digestif<em>amaro, grappa, or something older</em></span><span class="dots"></span><span class="menu-price">10</span></div>
+          <p class="menu-foot">Coffee is roasted in Brooklyn and pulled to order.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow reveal">04 &mdash; The room</p>
+          <h2 class="reveal">Warm light,<br>low noise, long tables.</h2>
+        </div>
+        <p class="section-note reveal">A look inside the dining room, the bar, and everything in between.</p>
+      </div>
+      <div class="gallery reveal">
+        <button class="gallery-item g1" data-full="assets/interior.jpg" aria-label="View the dining room">
+          <img src="assets/interior.jpg" alt="Dining room with dark wood and pendant lights" loading="lazy">
+        </button>
+        <button class="gallery-item g2" data-full="assets/dish4.jpg" aria-label="View seasonal plates">
+          <img src="assets/dish4.jpg" alt="Seasonal plates arranged on a wooden table" loading="lazy">
+        </button>
+        <button class="gallery-item g3" data-full="assets/bar.jpg" aria-label="View the bar">
+          <img src="assets/bar.jpg" alt="The bar at Ember and Vine" loading="lazy">
+        </button>
+        <button class="gallery-item g4" data-full="assets/grill.jpg" aria-label="View the grill">
+          <img src="assets/grill.jpg" alt="Ribs resting after time over the fire" loading="lazy">
+        </button>
+        <button class="gallery-item g5" data-full="assets/table.jpg" aria-label="View the terrace">
+          <img src="assets/table.jpg" alt="The terrace laid for service" loading="lazy">
+        </button>
+        <button class="gallery-item g6" data-full="assets/wine.jpg" aria-label="View wine service">
+          <img src="assets/wine.jpg" alt="Glasses of red wine raised at the table" loading="lazy">
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="private" id="private">
+    <div class="private-media"><img src="assets/private.jpg" alt="A private dining room set for a dinner party" loading="lazy"></div>
+    <div class="container private-inner">
+      <div class="private-copy reveal">
+        <p class="eyebrow">Private dining</p>
+        <h2>Your table.<br>Our fire.</h2>
+        <p>The back room seats eighteen around one long oak table, with a dedicated host and a menu built with you. Buyouts of the full restaurant are available on Mondays.</p>
+        <ul class="private-list">
+          <li><span>Long table</span><span>18 guests</span></li>
+          <li><span>Full buyout</span><span>48 guests</span></li>
+          <li><span>Formats</span><span>Dinner, reception, tasting</span></li>
+        </ul>
+        <a class="btn btn-primary" href="mailto:events@emberandvine.com?subject=Private%20dining%20enquiry">Enquire about private dining</a>
+      </div>
+    </div>
+  </section>
+  <section class="section quotes">
+    <div class="container">
+      <p class="eyebrow center reveal">Kind words</p>
+      <div class="quote-grid">
+        <blockquote class="reveal">
+          <p>&ldquo;The short rib is the reason I stopped ordering anything else. The room feels like a secret you want to keep and tell everyone about.&rdquo;</p>
+          <footer><span class="stars" aria-label="5 out of 5">&#9733;&#9733;&#9733;&#9733;&#9733;</span><cite>Nadia R. &middot; Regular since 2021</cite></footer>
+        </blockquote>
+        <blockquote class="reveal">
+          <p>&ldquo;We booked the back room for my father&rsquo;s seventieth. They remembered every allergy, every name, and somehow made it feel effortless.&rdquo;</p>
+          <footer><span class="stars" aria-label="5 out of 5">&#9733;&#9733;&#9733;&#9733;&#9733;</span><cite>James O. &middot; Private dining</cite></footer>
+        </blockquote>
+        <blockquote class="reveal">
+          <p>&ldquo;A wine list with actual opinions, food that tastes of the fire it came off, and staff who let you take your time. Rare.&rdquo;</p>
+          <footer><span class="stars" aria-label="5 out of 5">&#9733;&#9733;&#9733;&#9733;&#9733;</span><cite>Priya M. &middot; Food writer</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="section visit" id="visit">
+    <div class="container visit-grid">
+      <div class="visit-copy">
+        <p class="eyebrow reveal">05 &mdash; Visit</p>
+        <h2 class="reveal">Find us on<br>Orchard Street.</h2>
+        <p class="reveal">Between Stanton and Rivington, two blocks from the F train. Walk-ins are kept for the bar; the dining room books out a week ahead.</p>
+        <div class="visit-hours reveal">
+          <h3>Opening hours</h3>
+          <dl>
+            <div><dt>Monday</dt><dd>Closed</dd></div>
+            <div><dt>Tuesday &ndash; Thursday</dt><dd>5pm &ndash; 11pm</dd></div>
+            <div><dt>Friday &ndash; Saturday</dt><dd>5pm &ndash; 12am</dd></div>
+            <div><dt>Sunday</dt><dd>12pm &ndash; 10pm</dd></div>
+          </dl>
+        </div>
+        <div class="visit-contact reveal">
+          <a href="tel:+12125550148">+1 (212) 555-0148</a>
+          <a href="mailto:hello@emberandvine.com">hello@emberandvine.com</a>
+          <p>148 Orchard Street, New York, NY 10002</p>
+        </div>
+      </div>
+      <div class="visit-map reveal">
+        <iframe title="Map showing Ember and Vine at 148 Orchard Street" src="https://maps.google.com/maps?q=148%20Orchard%20Street%20New%20York&t=&z=15&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a class="map-link" href="https://maps.google.com/?q=148+Orchard+Street+New+York" target="_blank" rel="noopener">Get directions &#8599;</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="reserve" id="reserve">
+    <div class="container reserve-grid">
+      <div class="reserve-copy">
+        <p class="eyebrow light reveal">Reservations</p>
+        <h2 class="reveal">Keep a<br>table warm.</h2>
+        <p class="reveal">Tables are released thirty days ahead. For parties larger than eight, or for the private room, write to us directly and we will take care of it.</p>
+        <div class="reserve-meta reveal">
+          <div><span>Call</span><a href="tel:+12125550148">+1 (212) 555-0148</a></div>
+          <div><span>Email</span><a href="mailto:hello@emberandvine.com">hello@emberandvine.com</a></div>
+        </div>
+      </div>
+      <form class="reserve-form reveal" id="reserve-form" novalidate>
+        <div class="form-row two">
+          <label>Name<input type="text" name="name" autocomplete="name" placeholder="Your name" required></label>
+          <label>Email<input type="email" name="email" autocomplete="email" placeholder="you@example.com" required></label>
+        </div>
+        <div class="form-row two">
+          <label>Phone<input type="tel" name="phone" autocomplete="tel" placeholder="(212) 555-0000"></label>
+          <label>Guests
+            <select name="guests" required>
+              <option value="">Select</option>
+              <option>1 guest</option><option>2 guests</option><option>3 guests</option>
+              <option>4 guests</option><option>5 guests</option><option>6 guests</option>
+              <option>7 guests</option><option>8 guests</option>
+            </select>
+          </label>
+        </div>
+        <div class="form-row two">
+          <label>Date<input type="date" name="date" required></label>
+          <label>Time
+            <select name="time" required>
+              <option value="">Select</option>
+              <option>5:00pm</option><option>5:30pm</option><option>6:00pm</option>
+              <option>6:30pm</option><option>7:00pm</option><option>7:30pm</option>
+              <option>8:00pm</option><option>8:30pm</option><option>9:00pm</option>
+              <option>9:30pm</option>
+            </select>
+          </label>
+        </div>
+        <label>Occasion <span class="optional">(optional)</span>
+          <select name="occasion">
+            <option value="">Just dinner</option>
+            <option>Birthday</option><option>Anniversary</option>
+            <option>Business dinner</option><option>Celebration</option>
+          </select>
+        </label>
+        <label>Anything we should know?<textarea name="notes" rows="3" placeholder="Allergies, accessibility, a favourite table..."></textarea></label>
+        <button class="btn btn-primary btn-wide" type="submit">Request reservation</button>
+        <p class="form-note">We confirm every booking by email within a few hours.</p>
+        <div class="form-success" id="reserve-success" role="status" hidden>
+          <h3>Table requested.</h3>
+          <p id="reserve-summary"></p>
+          <p class="small">If you do not hear from us within four hours, call the restaurant and we will sort it.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="#top"><span class="brand-text">Ember <i>&amp;</i> Vine</span></a>
+      <p>Wood-fired kitchen and natural wine bar on the Lower East Side. Open since 2019.</p>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Resy">Resy</a>
+        <a href="#" aria-label="Google Maps">Google Maps</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <a href="#story">Our story</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#private">Private dining</a>
+    </div>
+    <div class="footer-col">
+      <h4>Visit</h4>
+      <p>148 Orchard Street<br>New York, NY 10002</p>
+      <a href="tel:+12125550148">+1 (212) 555-0148</a>
+      <a href="mailto:hello@emberandvine.com">hello@emberandvine.com</a>
+    </div>
+    <div class="footer-col footer-news">
+      <h4>The list</h4>
+      <p>Seasonal menus, wine dinners and the occasional Monday buyout. One email a month.</p>
+      <form id="newsletter-form">
+        <input type="email" placeholder="Email address" aria-label="Email address" required>
+        <button type="submit" aria-label="Subscribe">&#8594;</button>
+      </form>
+      <p class="news-success" id="news-success" hidden>You are on the list. Thank you.</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; 2026 Ember &amp; Vine. All rights reserved.</p>
+    <div><a href="#">Privacy</a><a href="#">Accessibility</a><a href="#">Careers</a></div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+  <button class="lightbox-close" aria-label="Close image viewer">&times;</button>
+  <img src="" alt="">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
